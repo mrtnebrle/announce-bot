@@ -1,0 +1,12 @@
+{
+	"domain": "mrtnebrle",
+	"name": "Announce Bot",
+	"codeowners": [
+	  "@mrtnebrle"
+	],
+	"config_flow": true,
+	"documentation": "https://github.com/mrtnebrle/announce-bot",
+	"iot_class": "cloud_polling",
+	"issue_tracker": "https://github.com/mrtnebrle/announce-bot/issues",
+	"version": "0.0.0"
+  }

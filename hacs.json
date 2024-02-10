@@ -1,6 +1,6 @@
 {
-    "name": "Cam Announcer",
-    "filename": "cam_announcer.zip",
+    "name": "Announce Bot",
+    "filename": "announce_bot.zip",
     "hide_default_branch": true,
     "homeassistant": "2024.2.0",
     "render_readme": true,
