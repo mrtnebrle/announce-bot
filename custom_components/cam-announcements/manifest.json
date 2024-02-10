@@ -1,0 +1,12 @@
+{
+	"domain": "mrtnebrle",
+	"name": "Cam Announcer",
+	"codeowners": [
+	  "@mrtnebrle"
+	],
+	"config_flow": true,
+	"documentation": "https://github.com/mrtnebrle/cam-announcer",
+	"iot_class": "cloud_polling",
+	"issue_tracker": "https://github.com/mrtnebrle/cam-announcer/issues",
+	"version": "0.0.0"
+  }
