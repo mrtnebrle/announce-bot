@@ -1,0 +1,10 @@
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:dev
+    container_name: homeassistant-dev
+    restart: unless-stopped
+    ports:
+      - "8125:8123"
+    volumes:
+      - ./../config:/config
+      - ./../custom_components:/config/custom_components
