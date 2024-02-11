@@ -2,7 +2,7 @@
     "name": "Announce Bot",
     "filename": "announce-bot.zip",
     "hide_default_branch": true,
-    "homeassistant": "2024.2.0",
+    "homeassistant": "2024.2.1",
     "render_readme": true,
     "zip_release": true
 }
