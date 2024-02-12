@@ -5,4 +5,9 @@ default_config:
 logger:
   default: info
   logs:
-    custom_components.announce_bot: debug
+    custom_components.announce-bot: debug
+
+announce-bot:
+  sensors:
+    - binary_sensor.g4_pro_motion_3
+  openai_key: !secret openai_key

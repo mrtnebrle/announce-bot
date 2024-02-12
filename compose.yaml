@@ -6,5 +6,5 @@ services:
     ports:
       - "8125:8123"
     volumes:
-      - ./../config:/config
-      - ./../custom_components:/config/custom_components
+      - ./config:/config
+      - ./custom_components:/config/custom_components

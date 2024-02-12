@@ -25,7 +25,7 @@ class AnnounceBotApiClientAuthenticationError(
 
 
 class AnnounceBotApiClient:
-    """Sample API Client."""
+    """AnnounceBot API Client."""
 
     def __init__(
         self,

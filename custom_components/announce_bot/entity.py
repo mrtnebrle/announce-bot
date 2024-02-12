@@ -9,7 +9,7 @@ from .coordinator import AnnounceBotDataUpdateCoordinator
 
 
 class AnnounceBotEntity(CoordinatorEntity):
-    """BlueprintEntity class."""
+    """AnnounceBotEntity class."""
 
     _attr_attribution = ATTRIBUTION
 

@@ -7,3 +7,6 @@ NAME = "Announce Bot"
 DOMAIN = "announce-bot"
 VERSION = "0.0.0"
 ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
+
+OPENAI_KEY = "openai_key"
+SENSORS = "sensors"
