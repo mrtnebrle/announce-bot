@@ -11,6 +11,7 @@ class AnnounceBot:
     def __init__(
         self,
         hass: HomeAssistant,
+        openai_key: str,
         sensors: dict) -> None:
         """Initialize."""
         track_state_change(hass, sensors, self.state_changed)

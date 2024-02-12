@@ -47,7 +47,7 @@ def setup(hass, config):
 	openai_key = conf.get(OPENAI_KEY)
 	sensors = conf.get(SENSORS)
 
-	announce_bot = AnnounceBot(hass, config[DOMAIN]['sensors'])
+	announce_bot = AnnounceBot(hass, openai_key, sensors)
 
 	# rf = rcswitch.RCSwitch(comport, speed=comspeed)
 	# rf.libWaitForAck(True, timeout=1)

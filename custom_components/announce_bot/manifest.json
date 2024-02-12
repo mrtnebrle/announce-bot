@@ -1,5 +1,5 @@
 {
-	"domain": "announce-bot",
+	"domain": "announce_bot",
 	"name": "Announce Bot",
 	"codeowners": [
 	  "@mrtnebrle"
