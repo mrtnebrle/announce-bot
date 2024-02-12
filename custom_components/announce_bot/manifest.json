@@ -4,9 +4,9 @@
 	"codeowners": [
 	  "@mrtnebrle"
 	],
-	"integration_type": "service",
 	"config_flow": false,
 	"documentation": "https://github.com/mrtnebrle/announce-bot",
+	"integration_type": "service",
 	"iot_class": "local_polling",
 	"issue_tracker": "https://github.com/mrtnebrle/announce-bot/issues",
 	"version": "0.0.0"
