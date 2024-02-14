@@ -1,4 +1,8 @@
 # https://www.home-assistant.io/integrations/default_config/
+homeassistant:
+  allowlist_external_dirs:
+    - "/config/.storage"
+
 default_config:
 
 # https://www.home-assistant.io/integrations/logger/
@@ -7,7 +11,15 @@ logger:
   logs:
     custom_components.announce-bot: debug
 
-announce-bot:
+announce_bot:
   sensors:
-    - binary_sensor.g4_pro_motion_3
+    - binary_sensor.driveway_motion
+    - binary_sensor.courtyard_motion
+    - binary_sensor.doorbell_motion
+    - binary_sensor.pool_motion
+    - binary_sensor.backyard_motion
+    - binary_sensor.doorbell_package_detected
   openai_key: !secret openai_key
+  eleven_api_key: !secret eleven_api_key
+  elevenlabs_api_key: !secret elevenlabs_api_key
+  elevenlabs_voice_id: !secret elevenlabs_voice_id

@@ -3,6 +3,7 @@ services:
     image: ghcr.io/home-assistant/home-assistant:dev
     container_name: homeassistant-dev
     restart: unless-stopped
+    user: "1000"
     ports:
       - "8125:8123"
     volumes:
