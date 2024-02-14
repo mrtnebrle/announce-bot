@@ -16,8 +16,7 @@ from .const import (
     OPENAI_KEY,
     ELEVEN_API_KEY,
     ELEVENLABS_API_KEY,
-    ELEVENLABS_VOICE_ID,
-    LOGGER
+    ELEVENLABS_VOICE_ID
 )
 
 import voluptuous as vol
